@@ -13,7 +13,10 @@ A responsive front-end clone of the Netflix website built using pure HTML and CS
 
 ## Demo
 
-Add link
+**Visit the page at:**
+```bash
+https://singharyan006.github.io/Netflix_Clone/
+```
 
 ## Getting Started
 
