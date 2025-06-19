@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/images/bg.jpg);
+    height: 85vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    background-blend-mode: multiply;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0 12vw;
+}
+
+.main .nav .image {
+    width: 150px;
+}
+
+.lang-btn {
+    padding: 6px 36px 6px 34px;
+    background-color: rgb(35 29 29);
+    color: white;
+    font-weight: 700;
+    border: 2px rgb(128, 125, 125)
+    solid;
+    border-radius: 5px;
+}
+
+.sign-in {
+    margin: 0 10px;
+    background-color: red;
+    color: white;
+    padding: 6px;
+}
+
+.content {
+    color: white;
+    text-align: center;
+}
+
+.box {
+    margin: 150px;
+}
+
+.box h1 {
+    font-size: 60px;
+    ;
+}
+
+.box p {
+    font-size: 25px;
+    padding: 20px;
+}
+
+.box h3 {
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.box input {
+    text-align: start;
+    width: 20vw;
+    padding: 25px 15px 10px 15px;
+    background-color: rgb(35 29 29);
+    border: 2px solid white;
+    color: white;
+    font-size: medium;
+}
+
+.box button {
+    width: 10vw;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.movies {
+    flex-wrap:nowrap;
+    overflow-x: auto;
+    display: flex;
+    background-color: black;
+    color: white;
+    margin: auto;
+    width: 75vw;
+    padding: 30px 0;
+    gap: 20px;
+    scrollbar-color: #e50914 #222;
+    scrollbar-width: thin;  
+}
+
+ 
+.movie-card{
+    flex-wrap: wrap;
+    display: flex;
+}
+
+
+.new{
+    background-color: black;
+    color: white;
+    width: 75vw;
+    padding: 60px 0 20px 0;
+    margin: auto;
+}
+
+.cards {
+    justify-content: center;
+    display: flex;
+    width: 75vw;
+    margin: auto;
+    gap: 20px;
+    height: 40vh;
+}
+
+.reasons h2 {
+    padding: 20px;
+}
+
+.reasons {
+    width: 30vw;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(27, 19, 59);
+}
+
+.reasons :nth-child(2){
+    justify-content: center;
+    font-size: large;
+    color: rgb(207, 203, 203);
+}
+
+
+.faq-query{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 10px;
+}
+
+.last{
+    padding:23px;
+    font-size: 25px;
+    background-color: rgb(35 29 29);
+    color: #dccccc;
+    border-style: none;
+    text-align: start;
+}
+
+
+.footer{
+    width: 75vw;
+    margin: auto;
+}
+.input{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.footer h3{
+    color: white;
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+.input input{
+    text-align: start;
+    width: 20vw;
+    padding: 25px 15px 10px 15px;
+    background-color: rgb(35 29 29);
+    border: 2px solid white;
+    color: white;
+    font-size: medium;
+}
+
+.input button{
+    width: 10vw;
+    background-color: red;
+    color: white;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+.query{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: large;
+    padding: 20px 0;
+}
+
+.query a{
+    color: white;
+    padding: 20px 10px;
+    justify-content: center;
+}
+
+.footer-items{
+    display: flex;
+    width: 75vw;
+    justify-content: space-between;
+    margin: 30px auto;
+}
+
+.footer-item{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.footer-item a{
+    color: rgb(203, 203, 203);
+    text-align: left;
+    flex-direction: column;
+}
+
+.english{
+    margin: 20px auto;
+    padding: 6px 36px 6px 34px;
+    background-color: rgb(35 29 29);
+    color: white;
+    font-weight: 700;
+    border: 2px rgb(128, 125, 125)
+    solid;
+    border-radius: 5px;
+}
+
+
+.last-btn{
+    border-style: none;
+    background-color: black;
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 5px;
+}
