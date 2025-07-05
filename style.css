@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     background-color: black;
 }
 
@@ -30,8 +30,7 @@ body{
     background-color: rgb(35 29 29);
     color: white;
     font-weight: 700;
-    border: 2px rgb(128, 125, 125)
-    solid;
+    border: 2px rgb(128, 125, 125) solid;
     border-radius: 5px;
 }
 
@@ -91,7 +90,7 @@ body{
 }
 
 .movies {
-    flex-wrap:nowrap;
+    flex-wrap: nowrap;
     overflow-x: auto;
     display: flex;
     background-color: black;
@@ -101,17 +100,17 @@ body{
     padding: 30px 0;
     gap: 20px;
     scrollbar-color: #e50914 #222;
-    scrollbar-width: thin;  
+    scrollbar-width: thin;
 }
 
- 
-.movie-card{
+
+.movie-card {
     flex-wrap: wrap;
     display: flex;
 }
 
 
-.new{
+.new {
     background-color: black;
     color: white;
     width: 75vw;
@@ -141,14 +140,14 @@ body{
     background-color: rgb(27, 19, 59);
 }
 
-.reasons :nth-child(2){
+.reasons :nth-child(2) {
     justify-content: center;
     font-size: large;
     color: rgb(207, 203, 203);
 }
 
 
-.faq-query{
+.faq-query {
     width: 75vw;
     display: flex;
     flex-direction: column;
@@ -156,8 +155,8 @@ body{
     gap: 10px;
 }
 
-.last{
-    padding:23px;
+.last {
+    padding: 23px;
     font-size: 25px;
     background-color: rgb(35 29 29);
     color: #dccccc;
@@ -166,23 +165,25 @@ body{
 }
 
 
-.footer{
+.footer {
     width: 75vw;
     margin: auto;
 }
-.input{
+
+.input {
     display: flex;
     gap: 10px;
     justify-content: center;
 }
-.footer h3{
+
+.footer h3 {
     color: white;
     padding: 30px;
     text-align: center;
     align-items: center;
 }
 
-.input input{
+.input input {
     text-align: start;
     width: 20vw;
     padding: 25px 15px 10px 15px;
@@ -192,7 +193,7 @@ body{
     font-size: medium;
 }
 
-.input button{
+.input button {
     width: 10vw;
     background-color: red;
     color: white;
@@ -200,7 +201,7 @@ body{
     padding: 0 10px;
 }
 
-.query{
+.query {
     background-color: black;
     color: white;
     text-decoration: none;
@@ -208,44 +209,43 @@ body{
     padding: 20px 0;
 }
 
-.query a{
+.query a {
     color: white;
     padding: 20px 10px;
     justify-content: center;
 }
 
-.footer-items{
+.footer-items {
     display: flex;
     width: 75vw;
     justify-content: space-between;
     margin: 30px auto;
 }
 
-.footer-item{
+.footer-item {
     display: flex;
     gap: 15px;
     flex-direction: column;
 }
 
-.footer-item a{
+.footer-item a {
     color: rgb(203, 203, 203);
     text-align: left;
     flex-direction: column;
 }
 
-.english{
+.english {
     margin: 20px auto;
     padding: 6px 36px 6px 34px;
     background-color: rgb(35 29 29);
     color: white;
     font-weight: 700;
-    border: 2px rgb(128, 125, 125)
-    solid;
+    border: 2px rgb(128, 125, 125) solid;
     border-radius: 5px;
 }
 
 
-.last-btn{
+.last-btn {
     border-style: none;
     background-color: black;
     color: blue;
