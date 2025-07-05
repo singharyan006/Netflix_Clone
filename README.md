@@ -2,8 +2,6 @@
 
 A responsive and visually engaging Netflix homepage clone built with **HTML**, **CSS**, and **Vanilla JavaScript**. This project replicates the UI/UX of Netflix's landing page, including a hero section, trending carousel, and footer — complete with custom styling and images.
 
-![Netflix Clone Preview](./assets/images/preview.png)
-
 ---
 
 ## 🚀 Live Demo
