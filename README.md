@@ -1,54 +1,85 @@
-# Netflix Clone
+# 🎬 Netflix Clone
 
-A responsive front-end clone of the Netflix website built using pure HTML and CSS. This project aims to replicate the look and feel of the official Netflix landing page, including its layout, styling, and basic interactive elements.
+A responsive and visually engaging Netflix homepage clone built with **HTML**, **CSS**, and **Vanilla JavaScript**. This project replicates the UI/UX of Netflix's landing page, including a hero section, trending carousel, and footer — complete with custom styling and images.
 
-## Features
+![Netflix Clone Preview](./assets/images/preview.png)
 
-- Fully responsive design for desktop and mobile devices
-- Modern Netflix-inspired UI/UX
-- Custom navigation bar
-- Movie banners and card sections
-- Footer with useful links
-- Clean and organized code
+---
 
-## Demo
+## 🚀 Live Demo
 
-**Visit the page at:**
--[Netflix_Clone](https://singharyan006.github.io/Netflix_Clone/)
+🌐 [View on Netlify](https://aryandev-namealreadytaken.netlify.app/)
 
-## Getting Started
+---
 
-1. **Clone the repository:**
-   ```bash
-   git clone https://github.com/singharyan006/Netflix_Clone.git
-   ```
-2. **Open the project:**
-   - Simply open `index.html` in your browser to view the site.
+## 📺 Preview
 
-## Folder Structure
+![Netflix Clone Preview](./assets/images/preview.png)
 
+---
+
+## 📂 Folder Structure
 ```
-Netflix_Clone/
-├── index.html
-├── style.css
-├── images/
-└── README.md
+📁 Netflix-Clone/
+├── 📄 index.html
+├── 📄 style.css
+├── 📁 assets/
+│ └── 📁 images/
+│ ├── bg.jpg
+│ ├── logo.svg
+│ ├── favicon.ico
+│ └── (various movie poster images)
 ```
 
-## Technologies Used
+---
 
-- HTML5
-- CSS3
+## ✨ Features
 
-## Credits
+- 🎥 Hero section with background image and call-to-action
+- 🎞️ Horizontal scroll section for trending movies
+- 📱 Responsive design for all devices
+- 🔒 Favicon support (visible in the browser tab)
+- 🧒 Kids’ profile section simulation
+- ❓ Frequently Asked Questions section
+- 📩 Email form section
 
-- Inspired by the official [Netflix](https://www.netflix.com/) website design.
-- [Add any other resources, icons, or inspiration credits here]
+---
 
-## Contributing
+## 🛠️ Tech Stack
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript** (basic interactivity)
+- **Responsive Design**
 
-## License
+---
 
-[MIT](LICENSE)  
+## 🧠 Learning Outcomes
+
+- Mastered layout creation using Flexbox
+- Practiced UI cloning with pixel perfection
+- Enhanced responsive design skills
+- Hands-on use of `background-blend-mode`, `overflow-x`, and clean layout styling
+
+---
+
+## 💡 Improvements for Future
+
+- Add interactive FAQs with toggle logic using JavaScript
+- Include dark/light theme toggle
+- Add routing (multi-page support) using frameworks
+- Use a JSON API to populate movie cards dynamically
+
+---
+
+## 📬 Connect With Me
+
+👤 **Aryan Singh**  
+🔗 • [LinkedIn](https://www.linkedin.com/in/aryansingh006/) • [GitHub](https://github.com/singharyan006/)
+
+---
+
+## 📄 License
+
+This project is for educational purposes only. All images and assets are used for demo and learning. No commercial use intended.
+
