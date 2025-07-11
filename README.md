@@ -1,6 +1,6 @@
 # 🎬 Netflix Clone
 
-A responsive and visually engaging Netflix homepage clone built with **HTML**, **CSS**, and **Vanilla JavaScript**. This project replicates the UI/UX of Netflix's landing page, including a hero section, trending carousel, and footer — complete with custom styling and images.
+A responsive and visually engaging Netflix homepage clone built with **HTML** and **CSS** only. This project replicates the UI/UX of Netflix's landing page, including a hero section, trending carousel, and footer — complete with custom styling and images.
 
 ---
 
@@ -47,7 +47,6 @@ A responsive and visually engaging Netflix homepage clone built with **HTML**, *
 
 - **HTML5**
 - **CSS3**
-- **Vanilla JavaScript** (basic interactivity)
 - **Responsive Design**
 
 ---
@@ -79,5 +78,5 @@ A responsive and visually engaging Netflix homepage clone built with **HTML**, *
 
 ## 📄 License
 
-This project is for educational purposes only. All images and assets are used for demo and learning. No commercial use intended.
+Licensed under the [MIT License](LICENSE).
 
